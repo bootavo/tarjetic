@@ -1,8 +1,8 @@
-package fia.proy2.devmov.Interfaces;
+package fia.proy2.devmov.services;
 
 import java.util.List;
 
-import fia.proy2.devmov.Entities.PaquetesEntity;
+import fia.proy2.devmov.entities.PaquetesEntity;
 import retrofit.Callback;
 import retrofit.http.GET;
 

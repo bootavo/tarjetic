@@ -1,4 +1,4 @@
-package fia.proy2.devmov.Adapters;
+package fia.proy2.devmov.adapters;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -10,7 +10,7 @@ import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
-import fia.proy2.devmov.Entities.InventarioCartaEntity;
+import fia.proy2.devmov.entities.InventarioCartaEntity;
 import fia.proy2.devmov.R;
 
 /**

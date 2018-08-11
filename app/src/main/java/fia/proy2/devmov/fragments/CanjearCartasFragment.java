@@ -1,4 +1,4 @@
-package fia.proy2.devmov.Fragments;
+package fia.proy2.devmov.fragments;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -24,13 +24,13 @@ import com.bumptech.glide.Glide;
 import java.util.List;
 import java.util.Random;
 
-import fia.proy2.devmov.Adapters.CanjeAdapter;
-import fia.proy2.devmov.Constants.Constants;
-import fia.proy2.devmov.Entities.InventarioEntity;
-import fia.proy2.devmov.Entities.PaquetesEntity;
-import fia.proy2.devmov.Interfaces.InventarioInterface;
-import fia.proy2.devmov.Interfaces.PaqueteCartasInterface;
-import fia.proy2.devmov.Activities.MainActivity;
+import fia.proy2.devmov.adapters.CanjeAdapter;
+import fia.proy2.devmov.utilities.Constants;
+import fia.proy2.devmov.entities.InventarioEntity;
+import fia.proy2.devmov.entities.PaquetesEntity;
+import fia.proy2.devmov.services.InventarioInterface;
+import fia.proy2.devmov.services.PaqueteCartasInterface;
+import fia.proy2.devmov.activities.MainActivity;
 import fia.proy2.devmov.R;
 import retrofit.Callback;
 import retrofit.RestAdapter;

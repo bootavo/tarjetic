@@ -1,4 +1,4 @@
-package fia.proy2.devmov.Fragments;
+package fia.proy2.devmov.fragments;
 
 
 import android.os.Bundle;
@@ -9,7 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import fia.proy2.devmov.Adapters.PagerAdapter;
+import fia.proy2.devmov.adapters.PagerAdapter;
 import fia.proy2.devmov.R;
 
 /**

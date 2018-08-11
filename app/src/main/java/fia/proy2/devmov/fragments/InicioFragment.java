@@ -1,4 +1,4 @@
-package fia.proy2.devmov.Fragments;
+package fia.proy2.devmov.fragments;
 
 import android.content.Context;
 import android.os.Bundle;

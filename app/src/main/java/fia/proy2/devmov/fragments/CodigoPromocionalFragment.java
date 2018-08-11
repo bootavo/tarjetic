@@ -1,4 +1,4 @@
-package fia.proy2.devmov.Fragments;
+package fia.proy2.devmov.fragments;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -15,10 +15,10 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import fia.proy2.devmov.Constants.Constants;
-import fia.proy2.devmov.Entities.CodigoPromocionalEntity;
-import fia.proy2.devmov.Interfaces.CodigoPromocionalInterface;
-import fia.proy2.devmov.Activities.MainActivity;
+import fia.proy2.devmov.utilities.Constants;
+import fia.proy2.devmov.entities.CodigoPromocionalEntity;
+import fia.proy2.devmov.services.CodigoPromocionalInterface;
+import fia.proy2.devmov.activities.MainActivity;
 import fia.proy2.devmov.R;
 import retrofit.Callback;
 import retrofit.RestAdapter;

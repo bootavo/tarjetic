@@ -1,4 +1,4 @@
-package fia.proy2.devmov.Entities;
+package fia.proy2.devmov.entities;
 
 /**
  * Created by gtufinof on 1/06/2017.

@@ -1,4 +1,4 @@
-package fia.proy2.devmov.Entities;
+package fia.proy2.devmov.entities;
 
 /**
  * Created by james on 25/05/2017.

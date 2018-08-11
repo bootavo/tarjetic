@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="fia.proy2.devmov.Activities.Login"
+    tools:context="fia.proy2.devmov.activities.Login"
     android:id="@+id/RL"
     android:layout_gravity="center_vertical"
     android:gravity="center_vertical"

@@ -1,4 +1,4 @@
-package fia.proy2.devmov.Fragments;
+package fia.proy2.devmov.fragments;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -15,11 +15,11 @@ import android.widget.Toast;
 
 import java.util.List;
 
-import fia.proy2.devmov.Adapters.InventarioAdapter;
-import fia.proy2.devmov.Constants.Constants;
-import fia.proy2.devmov.Entities.CartaEntity;
-import fia.proy2.devmov.Interfaces.InventarioInterface;
-import fia.proy2.devmov.Activities.MainActivity;
+import fia.proy2.devmov.adapters.InventarioAdapter;
+import fia.proy2.devmov.utilities.Constants;
+import fia.proy2.devmov.entities.CartaEntity;
+import fia.proy2.devmov.services.InventarioInterface;
+import fia.proy2.devmov.activities.MainActivity;
 import fia.proy2.devmov.R;
 import retrofit.Callback;
 import retrofit.RestAdapter;

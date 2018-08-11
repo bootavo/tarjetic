@@ -1,7 +1,7 @@
-package fia.proy2.devmov.Interfaces;
+package fia.proy2.devmov.services;
 
 import java.util.List;
-import fia.proy2.devmov.Entities.PedidoEntity;
+import fia.proy2.devmov.entities.PedidoEntity;
 import retrofit.Callback;
 import retrofit.http.Field;
 import retrofit.http.FormUrlEncoded;

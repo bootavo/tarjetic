@@ -1,7 +1,6 @@
-package fia.proy2.devmov.Interfaces;
+package fia.proy2.devmov.services;
 
-import fia.proy2.devmov.Entities.CodigoPromocionalEntity;
-import fia.proy2.devmov.Entities.UsuarioEntity;
+import fia.proy2.devmov.entities.CodigoPromocionalEntity;
 import retrofit.Callback;
 import retrofit.http.GET;
 import retrofit.http.Query;

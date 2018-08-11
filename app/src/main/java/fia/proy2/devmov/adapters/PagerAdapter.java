@@ -1,10 +1,10 @@
-package fia.proy2.devmov.Adapters;
+package fia.proy2.devmov.adapters;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
-import fia.proy2.devmov.Fragments.CompraEfectivoFragment;
-import fia.proy2.devmov.Fragments.CompraPromocionFragment;
+import fia.proy2.devmov.fragments.CompraEfectivoFragment;
+import fia.proy2.devmov.fragments.CompraPromocionFragment;
 
 /**
  * Created by james on 25/05/2017.

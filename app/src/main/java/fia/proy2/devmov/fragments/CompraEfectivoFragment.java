@@ -1,4 +1,4 @@
-package fia.proy2.devmov.Fragments;
+package fia.proy2.devmov.fragments;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -14,10 +14,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 import java.util.List;
-import fia.proy2.devmov.Adapters.ProductoAdapter;
-import fia.proy2.devmov.Constants.Constants;
-import fia.proy2.devmov.Entities.ProductoEntity;
-import fia.proy2.devmov.Interfaces.ProductoInterface;
+import fia.proy2.devmov.adapters.ProductoAdapter;
+import fia.proy2.devmov.utilities.Constants;
+import fia.proy2.devmov.entities.ProductoEntity;
+import fia.proy2.devmov.services.ProductoInterface;
 import fia.proy2.devmov.R;
 import retrofit.Callback;
 import retrofit.RestAdapter;

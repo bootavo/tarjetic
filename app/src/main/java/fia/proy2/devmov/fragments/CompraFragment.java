@@ -1,4 +1,4 @@
-package fia.proy2.devmov.Fragments;
+package fia.proy2.devmov.fragments;
 
 
 import android.os.Bundle;
@@ -10,10 +10,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import fia.proy2.devmov.Constants.Constants;
-import fia.proy2.devmov.Entities.PedidoEntity;
-import fia.proy2.devmov.Interfaces.PedidoInterface;
-import fia.proy2.devmov.Activities.MainActivity;
+import fia.proy2.devmov.utilities.Constants;
+import fia.proy2.devmov.entities.PedidoEntity;
+import fia.proy2.devmov.services.PedidoInterface;
+import fia.proy2.devmov.activities.MainActivity;
 import fia.proy2.devmov.R;
 import retrofit.Callback;
 import retrofit.RestAdapter;

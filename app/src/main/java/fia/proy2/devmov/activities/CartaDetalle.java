@@ -1,4 +1,4 @@
-package fia.proy2.devmov.Activities;
+package fia.proy2.devmov.activities;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

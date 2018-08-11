@@ -1,4 +1,4 @@
-package fia.proy2.devmov.Adapters;
+package fia.proy2.devmov.adapters;
 
 import android.app.Activity;
 import android.support.v7.widget.RecyclerView;
@@ -6,14 +6,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
-import fia.proy2.devmov.Entities.ProductoPromocionEntity;
+import fia.proy2.devmov.entities.ProductoPromocionEntity;
 import fia.proy2.devmov.R;
 
 /**

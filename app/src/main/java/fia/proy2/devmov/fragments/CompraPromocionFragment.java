@@ -1,4 +1,4 @@
-package fia.proy2.devmov.Fragments;
+package fia.proy2.devmov.fragments;
 
 
 import android.os.Bundle;
@@ -17,13 +17,13 @@ import android.widget.Toast;
 
 import java.util.List;
 
-import fia.proy2.devmov.Adapters.ProductoPromocionAdapter;
-import fia.proy2.devmov.Constants.Constants;
-import fia.proy2.devmov.Entities.InventarioEntity;
-import fia.proy2.devmov.Entities.ProductoPromocionEntity;
-import fia.proy2.devmov.Interfaces.InventarioInterface;
-import fia.proy2.devmov.Interfaces.ProductoInterface;
-import fia.proy2.devmov.Activities.MainActivity;
+import fia.proy2.devmov.adapters.ProductoPromocionAdapter;
+import fia.proy2.devmov.utilities.Constants;
+import fia.proy2.devmov.entities.InventarioEntity;
+import fia.proy2.devmov.entities.ProductoPromocionEntity;
+import fia.proy2.devmov.services.InventarioInterface;
+import fia.proy2.devmov.services.ProductoInterface;
+import fia.proy2.devmov.activities.MainActivity;
 import fia.proy2.devmov.R;
 import retrofit.Callback;
 import retrofit.RestAdapter;

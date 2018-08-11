@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
-    tools:context="fia.proy2.devmov.Fragments.CompraFragment">
+    tools:context="fia.proy2.devmov.fragments.CompraFragment">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">

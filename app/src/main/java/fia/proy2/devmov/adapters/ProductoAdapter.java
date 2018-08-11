@@ -1,4 +1,4 @@
-package fia.proy2.devmov.Adapters;
+package fia.proy2.devmov.adapters;
 
 import android.app.Activity;
 import android.support.v7.widget.RecyclerView;
@@ -12,7 +12,7 @@ import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
-import fia.proy2.devmov.Entities.ProductoEntity;
+import fia.proy2.devmov.entities.ProductoEntity;
 import fia.proy2.devmov.R;
 
 /**

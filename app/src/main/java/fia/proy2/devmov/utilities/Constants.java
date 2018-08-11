@@ -1,4 +1,4 @@
-package fia.proy2.devmov.Constants;
+package fia.proy2.devmov.utilities;
 
 public class Constants {
 

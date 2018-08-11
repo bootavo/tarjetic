@@ -1,12 +1,11 @@
-package fia.proy2.devmov.Interfaces;
+package fia.proy2.devmov.services;
 
 import java.util.List;
 
-import fia.proy2.devmov.Entities.ProductoEntity;
-import fia.proy2.devmov.Entities.ProductoPromocionEntity;
+import fia.proy2.devmov.entities.ProductoEntity;
+import fia.proy2.devmov.entities.ProductoPromocionEntity;
 import retrofit.Callback;
 import retrofit.http.GET;
-import retrofit.http.Query;
 
 /**
  * Created by james on 26/05/2017.

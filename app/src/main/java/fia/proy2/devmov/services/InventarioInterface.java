@@ -1,10 +1,10 @@
-package fia.proy2.devmov.Interfaces;
+package fia.proy2.devmov.services;
 
 import java.util.List;
 
-import fia.proy2.devmov.Entities.CartaEntity;
-import fia.proy2.devmov.Entities.InventarioCartaEntity;
-import fia.proy2.devmov.Entities.InventarioEntity;
+import fia.proy2.devmov.entities.CartaEntity;
+import fia.proy2.devmov.entities.InventarioCartaEntity;
+import fia.proy2.devmov.entities.InventarioEntity;
 import retrofit.Callback;
 import retrofit.http.GET;
 import retrofit.http.Query;

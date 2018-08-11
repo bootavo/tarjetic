@@ -1,4 +1,4 @@
-package fia.proy2.devmov.Activities;
+package fia.proy2.devmov.activities;
 
 import android.app.Activity;
 import android.content.Context;

@@ -1,4 +1,4 @@
-package fia.proy2.devmov.Activities;
+package fia.proy2.devmov.activities;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
@@ -13,9 +13,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import fia.proy2.devmov.Constants.Constants;
-import fia.proy2.devmov.Entities.UsuarioEntity;
-import fia.proy2.devmov.Interfaces.UsuarioInterface;
+import fia.proy2.devmov.utilities.Constants;
+import fia.proy2.devmov.entities.UsuarioEntity;
+import fia.proy2.devmov.services.UsuarioInterface;
 import fia.proy2.devmov.R;
 import retrofit.Callback;
 import retrofit.RestAdapter;
