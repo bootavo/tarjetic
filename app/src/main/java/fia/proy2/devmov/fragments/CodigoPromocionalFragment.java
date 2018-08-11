@@ -18,7 +18,7 @@ import android.widget.Toast;
 import fia.proy2.devmov.Constants.Constants;
 import fia.proy2.devmov.Entities.CodigoPromocionalEntity;
 import fia.proy2.devmov.Interfaces.CodigoPromocionalInterface;
-import fia.proy2.devmov.MainActivity;
+import fia.proy2.devmov.Activities.MainActivity;
 import fia.proy2.devmov.R;
 import retrofit.Callback;
 import retrofit.RestAdapter;

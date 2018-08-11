@@ -19,7 +19,7 @@ import fia.proy2.devmov.Adapters.InventarioAdapter;
 import fia.proy2.devmov.Constants.Constants;
 import fia.proy2.devmov.Entities.CartaEntity;
 import fia.proy2.devmov.Interfaces.InventarioInterface;
-import fia.proy2.devmov.MainActivity;
+import fia.proy2.devmov.Activities.MainActivity;
 import fia.proy2.devmov.R;
 import retrofit.Callback;
 import retrofit.RestAdapter;

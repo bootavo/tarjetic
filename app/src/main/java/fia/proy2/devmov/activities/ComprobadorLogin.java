@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 
-import fia.proy2.devmov.MainActivity;
 import fia.proy2.devmov.R;
 
 /**

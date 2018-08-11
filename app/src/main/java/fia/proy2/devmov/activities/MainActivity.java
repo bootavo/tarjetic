@@ -1,4 +1,4 @@
-package fia.proy2.devmov;
+package fia.proy2.devmov.Activities;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -17,13 +17,13 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-import fia.proy2.devmov.Activities.Login;
 import fia.proy2.devmov.Fragments.CanjearCartasFragment;
 import fia.proy2.devmov.Fragments.CodigoPromocionalFragment;
 import fia.proy2.devmov.Fragments.DeliveryFragment;
 import fia.proy2.devmov.Fragments.InicioFragment;
 import fia.proy2.devmov.Fragments.InventarioFragment;
 import fia.proy2.devmov.Fragments.PedidoFragment;
+import fia.proy2.devmov.R;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {

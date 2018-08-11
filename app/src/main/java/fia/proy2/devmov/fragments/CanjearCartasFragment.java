@@ -3,10 +3,8 @@ package fia.proy2.devmov.Fragments;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.media.Image;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AlertDialog;
 import android.util.Log;
@@ -23,9 +21,6 @@ import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 
-import org.w3c.dom.Text;
-
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
@@ -35,7 +30,7 @@ import fia.proy2.devmov.Entities.InventarioEntity;
 import fia.proy2.devmov.Entities.PaquetesEntity;
 import fia.proy2.devmov.Interfaces.InventarioInterface;
 import fia.proy2.devmov.Interfaces.PaqueteCartasInterface;
-import fia.proy2.devmov.MainActivity;
+import fia.proy2.devmov.Activities.MainActivity;
 import fia.proy2.devmov.R;
 import retrofit.Callback;
 import retrofit.RestAdapter;

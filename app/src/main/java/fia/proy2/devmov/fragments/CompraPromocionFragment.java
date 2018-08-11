@@ -15,19 +15,15 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.util.ArrayList;
 import java.util.List;
 
-import fia.proy2.devmov.Adapters.ProductoAdapter;
 import fia.proy2.devmov.Adapters.ProductoPromocionAdapter;
 import fia.proy2.devmov.Constants.Constants;
 import fia.proy2.devmov.Entities.InventarioEntity;
-import fia.proy2.devmov.Entities.ProductoEntity;
 import fia.proy2.devmov.Entities.ProductoPromocionEntity;
 import fia.proy2.devmov.Interfaces.InventarioInterface;
-import fia.proy2.devmov.Interfaces.PedidoInterface;
 import fia.proy2.devmov.Interfaces.ProductoInterface;
-import fia.proy2.devmov.MainActivity;
+import fia.proy2.devmov.Activities.MainActivity;
 import fia.proy2.devmov.R;
 import retrofit.Callback;
 import retrofit.RestAdapter;
