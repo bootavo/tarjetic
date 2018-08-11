@@ -30,6 +30,7 @@ import java.util.List;
 import java.util.Random;
 
 import fia.proy2.devmov.Adapters.CanjeAdapter;
+import fia.proy2.devmov.Constants.Constants;
 import fia.proy2.devmov.Entities.InventarioEntity;
 import fia.proy2.devmov.Entities.PaquetesEntity;
 import fia.proy2.devmov.Interfaces.InventarioInterface;
@@ -93,7 +94,7 @@ public class CanjearCartasFragment extends Fragment{
         mProgressDialog.show();
 
         RestAdapter restAdapter = new RestAdapter.Builder()
-                .setEndpoint("http://200.37.171.27:8080/delivery_trago")
+                .setEndpoint(Constants.BASE_URL)
                 .build();
 
         PaqueteCartasInterface servicio = restAdapter.create(PaqueteCartasInterface.class);
@@ -275,7 +276,7 @@ public class CanjearCartasFragment extends Fragment{
                                         edit.commit();
 
                                         RestAdapter restAdapter = new RestAdapter.Builder()
-                                                .setEndpoint("http://200.37.171.27:8080/delivery_trago")
+                                                .setEndpoint(Constants.BASE_URL)
                                                 .build();
 
                                         InventarioInterface servicio = restAdapter.create(InventarioInterface.class);
@@ -288,7 +289,7 @@ public class CanjearCartasFragment extends Fragment{
                                                     Toast.makeText(getActivity().getApplicationContext(), "Fichas actual: "+ finalResta +" fichas", Toast.LENGTH_LONG).show();
 
                                                     RestAdapter restAdapterCartas = new RestAdapter.Builder()
-                                                            .setEndpoint("http://200.37.171.27:8080/delivery_trago")
+                                                            .setEndpoint(Constants.BASE_URL)
                                                             .build();
 
                                                     String accion = "registrar_cartas";

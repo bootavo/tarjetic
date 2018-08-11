@@ -15,6 +15,7 @@ import android.widget.Toast;
 import java.util.List;
 
 import fia.proy2.devmov.Adapters.InventarioCartaAdapter;
+import fia.proy2.devmov.Constants.Constants;
 import fia.proy2.devmov.Entities.InventarioCartaEntity;
 import fia.proy2.devmov.Interfaces.InventarioInterface;
 import fia.proy2.devmov.R;
@@ -70,7 +71,7 @@ public class InventarioCartaFragment extends Fragment {
         String accion = "listarInventarioCarta";
 
         RestAdapter restAdapter = new RestAdapter.Builder()
-                .setEndpoint("http://200.37.171.27:8080/delivery_trago")
+                .setEndpoint(Constants.BASE_URL)
                 .build();
 
         InventarioInterface servicio = restAdapter.create(InventarioInterface.class);

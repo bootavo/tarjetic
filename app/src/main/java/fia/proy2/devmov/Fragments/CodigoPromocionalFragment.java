@@ -15,6 +15,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import fia.proy2.devmov.Constants.Constants;
 import fia.proy2.devmov.Entities.CodigoPromocionalEntity;
 import fia.proy2.devmov.Interfaces.CodigoPromocionalInterface;
 import fia.proy2.devmov.MainActivity;
@@ -66,7 +67,7 @@ public class CodigoPromocionalFragment extends Fragment{
                 String cod_pro = codigo_promocional.getText().toString();
 
                 RestAdapter restAdapter = new RestAdapter.Builder()
-                        .setEndpoint("http://200.37.171.27:8080/delivery_trago")
+                        .setEndpoint(Constants.BASE_URL)
                         .build();
 
                 CodigoPromocionalInterface servicio = restAdapter.create(CodigoPromocionalInterface.class);

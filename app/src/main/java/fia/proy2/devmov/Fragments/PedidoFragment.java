@@ -14,6 +14,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 import fia.proy2.devmov.Adapters.PedidoAdapter;
+import fia.proy2.devmov.Constants.Constants;
 import fia.proy2.devmov.Entities.PedidoEntity;
 import fia.proy2.devmov.Interfaces.PedidoInterface;
 import fia.proy2.devmov.MainActivity;
@@ -62,7 +63,7 @@ public class PedidoFragment extends Fragment {
         mProgressDialog.show();
 
         RestAdapter restAdapter = new RestAdapter.Builder()
-                .setEndpoint("http://200.37.171.27:8080/delivery_trago")
+                .setEndpoint(Constants.BASE_URL)
                 .build();
 
         PedidoInterface iP = restAdapter.create(PedidoInterface.class);

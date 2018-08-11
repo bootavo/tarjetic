@@ -13,7 +13,7 @@ import fia.proy2.devmov.R;
  * Created by bootavo on 24/05/2017.
  */
 
-public class ComprobadorLogin extends Activity{
+public class ComprobadorLogin extends Activity {
 
     SharedPreferences prefs;
     long id;

@@ -13,10 +13,11 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import fia.proy2.devmov.MainActivity;
-import fia.proy2.devmov.R;
+import fia.proy2.devmov.Constants.Constants;
 import fia.proy2.devmov.Entities.UsuarioEntity;
 import fia.proy2.devmov.Interfaces.UsuarioInterface;
+import fia.proy2.devmov.MainActivity;
+import fia.proy2.devmov.R;
 import retrofit.Callback;
 import retrofit.RestAdapter;
 import retrofit.RetrofitError;
@@ -56,7 +57,7 @@ public class Login extends Activity implements OnClickListener {
                     mProgressDialog.setMessage("confirmando datos ...");
                     mProgressDialog.show();
                     RestAdapter restAdapter = new RestAdapter.Builder()
-                            .setEndpoint("http://200.37.171.27:8080/delivery_trago")
+                            .setEndpoint(Constants.BASE_URL)
                             .build();
 
                     UsuarioInterface servicio = restAdapter.create(UsuarioInterface.class);

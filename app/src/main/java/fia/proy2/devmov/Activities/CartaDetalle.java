@@ -16,7 +16,7 @@ import uk.co.senab.photoview.PhotoViewAttacher;
  * Created by gtufinof on 9/06/2017.
  */
 
-public class CartaDetalle extends AppCompatActivity{
+public class CartaDetalle extends AppCompatActivity {
 
     private Toolbar toolbarEntrega;
     private ImageView imageView;

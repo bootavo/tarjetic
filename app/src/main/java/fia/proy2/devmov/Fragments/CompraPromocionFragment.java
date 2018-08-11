@@ -20,6 +20,7 @@ import java.util.List;
 
 import fia.proy2.devmov.Adapters.ProductoAdapter;
 import fia.proy2.devmov.Adapters.ProductoPromocionAdapter;
+import fia.proy2.devmov.Constants.Constants;
 import fia.proy2.devmov.Entities.InventarioEntity;
 import fia.proy2.devmov.Entities.ProductoEntity;
 import fia.proy2.devmov.Entities.ProductoPromocionEntity;
@@ -79,7 +80,7 @@ public class CompraPromocionFragment extends Fragment implements View.OnClickLis
 
 
         restAdapter = new RestAdapter.Builder()
-                .setEndpoint("http://200.37.171.27:8080/delivery_trago")
+                .setEndpoint(Constants.BASE_URL)
                 .build();
 
         ProductoInterface iP = restAdapter.create(ProductoInterface.class);

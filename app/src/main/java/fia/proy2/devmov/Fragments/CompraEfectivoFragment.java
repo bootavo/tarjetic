@@ -15,6 +15,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 import java.util.List;
 import fia.proy2.devmov.Adapters.ProductoAdapter;
+import fia.proy2.devmov.Constants.Constants;
 import fia.proy2.devmov.Entities.ProductoEntity;
 import fia.proy2.devmov.Interfaces.ProductoInterface;
 import fia.proy2.devmov.R;
@@ -63,7 +64,7 @@ public class CompraEfectivoFragment extends Fragment implements View.OnClickList
         mRecyclerView.setLayoutManager(mLayoutManager);
 
         RestAdapter restAdapter = new RestAdapter.Builder()
-                .setEndpoint("http://200.37.171.27:8080/delivery_trago")
+                .setEndpoint(Constants.BASE_URL)
                 .build();
 
         ProductoInterface iP = restAdapter.create(ProductoInterface.class);
