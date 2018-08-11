@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    -->
+
+    <color name="colorPrimary">#0091a3</color>
+    <color name="colorPrimaryDark">#00ACC1</color>
+    <color name="colorAccent">#00ACC1</color>
+
+    <color name="white">#fff</color>
+    <color name="black">#000000</color>
+    <color name="bg_black">#1b1b1b</color>
+    <color name="text_grey">#787878</color>
+    <color name="bg_boton">#095594</color>
+    <color name="backgroundColor">#212121</color>
+    <color name="background_footer">#90000000</color>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/inicio"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/pedidos"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Pedidos" />
+        <item
+            android:id="@+id/delivery"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Delivery" />
+        <item
+            android:id="@+id/inventario"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Inventario" />
+        <item
+            android:id="@+id/canjear_cartas"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Canjear Cartas" />
+        <item
+            android:id="@+id/codigo_promocional"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ingresa tu código" />
+        <item
+            android:id="@+id/faq"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="FAQ" />
+        <item
+            android:id="@+id/salir"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Salir" />
+    </group>
+
+</menu>

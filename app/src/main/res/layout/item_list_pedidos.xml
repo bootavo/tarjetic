@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/idpedido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pedido - 1"
+        android:textSize="18dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:id="@+id/fecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha:"
+        android:layout_alignParentRight="true"
+        android:textSize="12dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:id="@+id/nombrePedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idpedido"
+        android:text="Whisky x 10"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:textSize="14dp"/>
+
+    <TextView
+        android:id="@+id/estado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nombrePedido"
+        android:text="Estado:"
+        android:layout_marginTop="5dp"
+        android:textSize="12dp"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>

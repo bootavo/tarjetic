@@ -1,0 +1,66 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context="fia.proy2.devmov.Fragments.CompraFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/txtDireccion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dirección"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*(Solo en el distrito de Jesus María) "
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_above="@+id/editDireccion"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:id="@+id/editDireccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtDireccion"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/txtTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Teléfono Contacto"
+            android:layout_below="@id/editDireccion"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/editTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:layout_below="@id/txtTelefono"
+            android:layout_marginTop="10dp"
+            />
+        <Button
+            android:id="@+id/btnFinalizar"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/editTelefono"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:background="#00ACC1"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="20dp"
+            android:text="Finalizar"
+            />
+    </RelativeLayout>
+</FrameLayout>

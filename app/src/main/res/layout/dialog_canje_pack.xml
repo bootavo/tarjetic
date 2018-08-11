@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relative1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/nombre_pack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="300 Fichas obtenidas!"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:shadowColor="@color/black"
+            android:shadowRadius="5"/>
+
+        <ImageView
+            android:id="@+id/imagePack"
+            android:layout_below="@+id/nombre_pack"
+            android:layout_marginTop="10dp"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pack_premium"
+            />
+
+        <TextView
+            android:id="@+id/descripcion_pack"
+            android:layout_below="@+id/imagePack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Obtuviste 300 fichas que ahora estan disponibles para que puedas canjear packs de cartas, las cuales te ayudaran a conseguir el tragaoq ue queiras y gratis."
+            android:textColor="@color/text_grey"
+            android:textSize="15dp"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/btnCanjePack"
+            android:layout_below="@+id/descripcion_pack"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:textColor="@color/white"
+            android:background="#00ACC1"
+            android:text="CANJEAR"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/titulo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ganaste nuevas cartas!"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:shadowColor="@color/black"
+            android:shadowRadius="5"/>
+
+        <ImageView
+            android:id="@+id/imageCarta1"
+            android:layout_below="@+id/titulo2"
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:layout_toLeftOf="@+id/imageCarta2"
+            android:src="@drawable/naipe_oro"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp" />
+
+        <ImageView
+            android:id="@+id/imageCarta2"
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/naipe_oro"
+            android:layout_below="@+id/titulo2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <ImageView
+            android:id="@+id/imageCarta3"
+            android:layout_below="@+id/titulo2"
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/naipe_oro"
+            android:layout_toRightOf="@+id/imageCarta2"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"/>
+
+        <ImageView
+            android:id="@+id/imageCarta4"
+            android:layout_below="@+id/imageCarta2"
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/naipe_oro"
+            android:layout_toLeftOf="@+id/imageCartaX"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"/>
+
+        <ImageView
+            android:id="@+id/imageCartaX"
+            android:layout_below="@+id/imageCarta2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/naipe_oro"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"/>
+
+        <ImageView
+            android:id="@+id/imageCarta5"
+            android:layout_below="@+id/imageCarta2"
+            android:layout_width="50dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/naipe_oro"
+            android:layout_toRightOf="@+id/imageCartaX"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"/>
+
+        <TextView
+            android:id="@+id/descripcion_cartas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Obtuviste las siguientes cartas, revizalas en tu inventario"
+            android:textColor="@color/text_grey"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_below="@+id/imageCarta5" />
+
+        <Button
+            android:id="@+id/btnAceptarCartas"
+            android:layout_below="@+id/descripcion_cartas"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:textColor="@color/white"
+            android:background="#00ACC1"
+            android:text="ACEPTAR"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

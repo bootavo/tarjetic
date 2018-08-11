@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/bg_black"
+        android:gravity="center_vertical"
+        >
+
+        <TextView
+            android:id="@+id/titulo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Tragos Gratis!"
+            android:textColor="@color/white"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@color/white"
+            android:scaleType="centerCrop"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:id="@+id/titulo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿Quieres más tragos Delivery?"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+             />
+
+        <TextView
+            android:id="@+id/parrafo1"
+            android:layout_below="@+id/titulo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="ingresa el código promocional que has obtenido gracias a tus pedidos y obten fichas para que puedas canjear los tragos que quieras."
+             />
+        
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/imagen_fichas"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/parrafo1"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/comunicacion"/>
+
+        <EditText
+
+            android:id="@+id/codigo_promocional"
+            android:layout_below="@+id/imagen_fichas"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:textSize="30dp"
+            android:hint="Ingresa tu código"
+            android:layout_above="@+id/btnCanjear"
+            android:layout_alignLeft="@+id/btnCanjear"
+            android:layout_alignStart="@+id/btnCanjear"
+            android:gravity="center"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnCanjear"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:textColor="@color/white"
+            android:background="#00ACC1"
+            android:text="INGRESAR CODIGO"
+            android:gravity="center"
+            android:layout_marginBottom="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="240dp"
+    android:layout_margin="10dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    card_view:cardBackgroundColor="#FBFCFC"
+    card_view:cardCornerRadius="10dp">
+    <ImageView
+        android:id="@+id/imagenTrago"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:scaleType="centerInside"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagenTrago"
+        android:layout_gravity="bottom">
+        <TextView
+            android:id="@+id/nombreTrago"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nombreTrago"
+            android:layout_marginTop="15dp">
+            <ImageView
+                android:id="@+id/cartaOro"
+                android:layout_width="15dp"
+                android:layout_height="20dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cartadorada"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="5dp"
+                />
+
+            <TextView
+                android:id="@+id/cartasOro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_alignLeft="@+id/cartaOro"
+                android:textSize="12dp"
+                android:text="1000"
+                />
+
+            <ImageView
+                android:id="@+id/cartaPlata"
+                android:layout_width="15dp"
+                android:layout_height="20dp"
+                android:src="@drawable/cartaplata"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="35dp"
+                android:layout_marginBottom="5dp"
+                android:layout_alignLeft="@+id/cartasOro"
+                />
+
+            <TextView
+                android:id="@+id/cartasPlata"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="5dp"
+                android:layout_alignLeft="@+id/cartaPlata"
+                android:text="1000"
+                android:textSize="12dp"
+                />
+
+            <ImageView
+                android:id="@+id/cartaBronce"
+                android:layout_width="15dp"
+                android:layout_height="20dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cartabronce"
+                android:layout_marginLeft="35dp"
+                android:layout_marginBottom="5dp"
+                android:layout_alignLeft="@+id/cartasPlata"
+                />
+
+            <TextView
+                android:id="@+id/cartasBronce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_alignLeft="@id/cartaBronce"
+                android:layout_marginBottom="5dp"
+                android:text="1000"
+                android:textSize="12dp"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

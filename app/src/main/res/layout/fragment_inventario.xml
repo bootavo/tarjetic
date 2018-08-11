@@ -1,0 +1,46 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/coordinator_layout_cafeteria"
+    android:background="@color/bg_black"
+    >
+
+    <!--
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:padding="0dp"
+        android:id="@+id/toolbar"
+        android:background="?attr/colorPrimary"
+        app:titleTextAppearance="@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+        app:title="Ecnoómicos (Incluye entrada)"
+        app:titleTextColor="@android:color/white"
+        app:buttonGravity=""
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        />
+    -->
+
+    <GridView
+        android:id="@+id/fragment_inventario"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="120dp"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="10dp"
+        android:numColumns="2"
+        android:padding="10dp"
+        android:listSelector="@android:color/transparent"
+        android:foreground="?attr/selectableItemBackground">
+
+    </GridView>
+
+</android.support.design.widget.CoordinatorLayout>
+
+
+
+
+
+
